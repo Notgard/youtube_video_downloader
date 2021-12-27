@@ -13,7 +13,8 @@ window.geometry('520x220')
 window.title("Youtube vids downloader V.1.0")
 window.iconbitmap('src/ico/favicon.ico')
 
-tkinter.messagebox.showinfo(title="Warning !", message="DO NOT PRESS THE STOP DOWNLOAD BUTTON, also wait like 20 seconds for the program to start")
+# Doesn't seem to be a problem anymore
+#tkinter.messagebox.showinfo(title="Warning !", message="DO NOT PRESS THE STOP DOWNLOAD BUTTON, also wait like 20 seconds for the program to start")
 
 topFrame = tk.Frame(window)
 nameLabel = tk.Label(topFrame, text="Youtube Video URL : ").pack(side=tk.LEFT)

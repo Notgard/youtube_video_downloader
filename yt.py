@@ -121,6 +121,7 @@ def yt_download():
             ydl.download([str(entName.get())])
 
 def download():
+#TODO add threading
     print("\n", "Chosen File extension : ", entFile.get(), "\n")
     print("Chosen Video to download : ", entName.get())
     timer = 0.5
@@ -136,6 +137,6 @@ def download():
     if T.is_alive() == False:
         print("Download successfull !")
     else:
-        print("Fix this for 1.1 dipshit !! >_<")
+        print("Fix this for 1.1 !! >_<")
 then = time.time()
 window.mainloop()
